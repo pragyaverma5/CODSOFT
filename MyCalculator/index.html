@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="stylesheet" href="utils.css" type="text/css" />
+</head>
+<body>
+    <div class="main-container">
+    <span class="heading" id="element">CALCULATOR</span>
+    <!-- <span id="element"></span> -->
+    <div class="container" >
+        <div class="row">
+            <input class="inputbox" type="text" value="0" readonly >
+        </div>
+        <div class="row">
+            <button class="button">(</button>
+            <button class="button">)</button>
+            <button class="button">%</button>
+            <button class="button">/</button>
+            
+        </div>
+        <div class="row">
+            <button class="button">7</button>
+            <button class="button">8</button>
+            <button class="button">9</button>
+            <button class="button">*</button>
+            
+        </div>
+        <div class="row">
+            <button class="button">4</button>
+            <button class="button">5</button>
+            <button class="button">6</button>
+            <button class="button">-</button>
+            
+        </div>
+        <div class="row">
+            <button class="button">1</button>
+            <button class="button">2</button>
+            <button class="button">3</button>
+            <button class="button">+</button>
+            
+        </div>
+        <div class="row">
+            <button class="button">A/C</button>
+            <button class="button">0</button>
+            <button class="button">.</button>
+            <button class="button">=</button>
+            
+        </div>
+    </div>
+    <span class="credit">© 2025 Pragya Verma</span>
+</div>
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+    var typed = new Typed('#element', {
+      strings: ['<i>CALCULATOR</i> '],
+      typeSpeed: 50,
+    });
+  </script>
+</body>
+</html>

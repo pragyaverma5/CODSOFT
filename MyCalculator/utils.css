@@ -1,0 +1,10 @@
+.text-center{
+    text-align: center;
+    caret-color: transparent;
+  outline: none;
+}
+
+.typed-cursor {
+  display: none !important;
+}
+
